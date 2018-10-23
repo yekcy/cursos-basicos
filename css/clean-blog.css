@@ -9,15 +9,7 @@ body {
   color: #212529;
   font-family: 'Lora', 'Times New Roman', serif;
 
-{
-background-color:#005883;
-animation-name:css;
-animation-duration: 10s;
-}
-@keyframes css{
-from{background-color: #F0B429;}
-to{background-color: #F47920;}
-}
+
 
 
   
