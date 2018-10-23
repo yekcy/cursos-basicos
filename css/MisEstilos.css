@@ -1,0 +1,93 @@
+* {
+ border = 0;
+ margin = 0;
+ padding = 0;
+}
+body{
+	background:#FFF;
+	}
+
+article, figcaption, figure, footer, header, hgroup, nav, section{
+  display: block;
+}
+
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color:grey;
+  margin: 0px;
+}
+
+
+header,  .redessociales, .encabezadoimg, footer {
+  border-radius: 0.5em;
+  margin: 0.15em auto;
+  max-width: 960px;
+  padding: 0.25em;
+  text-align: center;
+}
+
+
+#formulario {
+  margin: auto;
+  max-width: 520px;
+  max-height: 426px;
+  border: 1px solid #000000;
+  box-shadow: 0 5px 5px #508530, 0 9px 0 #385e25, 0px 9px 10px rgba(0,0,0,0.4), inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  list-style-type:none;
+  color: grey;
+  font-size: 18px;
+}
+
+#formulario li {
+  margin: 5px 12px;
+}
+
+
+.encabezadoimg {
+  text-align: justify;
+ }
+
+
+.titulocab, h2 {
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color:white;
+  font-weight:bold;
+  font-size:26px;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15); 
+}
+
+
+
+.contenido p { 
+  color: #5F5F5F;
+  font-size: 18px;
+}
+
+
+hr {
+    height: 1px;
+    border: 0;
+    background-color: grey;
+}
+
+texto{
+	ext-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+	}			
+
+
+

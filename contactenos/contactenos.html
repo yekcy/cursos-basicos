@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "es">
+  <head>
+    <meta charset = "utf-8"/>
+    <title>Formulario contáctenos</title>
+	<link rel = "stylesheet" type = "text/css" href="../css/MisEstilos.css"/>
+    <link rel="stylesheet" rel="shortcut icon" type="text/css" media="screen" href="../css/style_parahtml5.css">
+	<script type="text/javascript" src="js/validarform.js"></script>
+  </head>
+  <body>
+  <div align="center">
+  <header>
+
+    <figure>
+     <!--nuestro logo-->
+      <div><img src="../img/UNAD SIMBOLO.jpg"></div>
+    
+      <figcaption>
+        <!titulo del logo del sitio>
+      </figcaption><br>
+    </figure>
+    <!--aqui se muestra el logo-->
+  </header>
+  <div><a  ></div>
+  <nav>
+  <!--aqui va nuestro menu-->
+  
+   <table><ul>
+   <tr>
+   <td>
+    <div class="boton_personalizado"><li><a href="../historia/historia.html">Historia</a></li></td></div>
+    <td>
+    <div class="boton_personalizado"><li><a href="contactenos.html">Cont&aacute;ctenos</a></li>
+    </td>
+    </div>
+    <td>
+     <div class="boton_personalizado"><li><a href="../index.html">Inicio</a></li></div>
+     </td>
+   </ul>
+   </tr>
+   </table>
+  </nav>
+  
+  
+  
+  <footer>
+   <!--pie de pagina numero de celular o contacto-->
+  </footer>
+ </div>
+  
+	<header>
+	</header>
+	<section class = "encabezadoimg">
+	  <article class = "titulocab">
+	    <h2>CONTÁCTENOS</h2>
+	  </article>
+	  <hr>
+	  <article class = "contenido">
+		<h3>Diligencie el siguiente formulario e inmediatamente nos pondremos en contacto con usted</h3>
+		<br>
+	     <form name="datos" onsubmit="return validar();">
+		  <ul id = "formulario">
+		   <li>
+		     <label for = "nombre">Nombres y Apellidos (obligatorio) :</label>
+		     <br>	 
+             <input type="text" name = "nombre" id = "nombre" size= "40" autofocus  required />
+		   </li> 
+
+            		   
+		   <li>
+		     <label for = "email">Correo Electrónico (obligatorio) :</label>
+			 <br>
+             <input type="email" name = "email" id = "email" size = "40"  required />
+	       </li>
+		   <li>
+		   <fieldset>
+		      Genero (obligatorio) :
+			 <br>
+             <input type="radio" name = "genero" id = "masculino" />Masculino
+			 <input type="radio" name = "genero" id = "femenino" size = "10" />Femenino
+			 </fieldset>
+	       </li>
+		   
+		   <li>
+		     <label for = "asunto">Asunto (obligatorio):</label>
+			 <br>
+             <input type="text" name = "asunto" id = "asunto"  size = "60" required />
+		   </li>  
+		   <li> 
+		     <label for = "mensaje">Escriba su mensaje (obligatorio) :</label> 
+           	 <br>	   
+		     <textarea required cols="46" rows="8" name = "mensaje" id = "mensaje" ></textarea><br>
+		   </li>
+		   <br>
+		    <li>
+             <input type="submit" id = "submit" value="Enviar Información">
+	       </li>
+		  </ul>  
+		 </form>
+	  </article>
+	</section>
+	<br>
+	<footer>
+	</footer>
+  </body>
+</html>
+
+
+
+
+
